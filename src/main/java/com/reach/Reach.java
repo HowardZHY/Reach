@@ -25,7 +25,7 @@ public class Reach {
   
   private Entity pointedEntity;
   
-  private float reach = 3.9F;
+  private float reach = 4.5F;
   
   private MovingObjectPosition moving;
   
@@ -54,7 +54,7 @@ public class Reach {
       if (Math.random() > 0.20000000298023224D) {
         this.reach = 6.6F;
       } else {
-        this.reach = 3.9F;
+        this.reach = 4.5F;
       } 
     } 
   }
